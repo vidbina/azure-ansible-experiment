@@ -33,6 +33,10 @@ According to the [documentation](https://azure.microsoft.com/en-us/documentation
 the Azure AD method has to be used in order to access resources through the
 Azure Resource Manager.
 
+[azure-ad-xplat]: https://azure.microsoft.com/en-us/documentation/articles/xplat-cli/
+[azure-auth-sp-pass]: https://azure.microsoft.com/en-us/documentation/articles/resource-group-authenticate-service-principal/#_authenticate-service-principal-with-password---azure-cli
+
+
 http://azure-sdk-for-python.readthedocs.org/en/latest/resourcemanagementauthentication.html
 
 https://azure.microsoft.com/en-us/documentation/articles/resource-group-authenticate-service-principal/#authenticate-service-principal-with-password---azure-cli

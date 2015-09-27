@@ -2,5 +2,6 @@
 ssh
 .auth_token
 *.pem
+*.pem.*
 *.ini
 *.[p|P]ublish[s|S]ettings
