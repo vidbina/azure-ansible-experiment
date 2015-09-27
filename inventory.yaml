@@ -1,0 +1,7 @@
+# A VM named `gateway` has been created in the `mesos-sandbox` w/ a NIC that
+# has a public IP connected to it. The machine of interest runs Ubuntu.
+# Run `azure vm show mesos-sandbox gateway` to view its public ip addr
+
+# TODO: http://docs.ansible.com/ansible/intro_dynamic_inventory.html
+# View VM details `ansible -i inventory.yaml -m setup gateway`
+gateway ansible_ssh_host=40.115.13.9 ansible_ssh_private_key_file=ssh/yoda.key ansible_ssh_user=yoda

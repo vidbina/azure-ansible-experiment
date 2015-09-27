@@ -1,0 +1,6 @@
+.azure*
+ssh
+.auth_token
+*.pem
+*.ini
+*.[p|P]ublish[s|S]ettings
